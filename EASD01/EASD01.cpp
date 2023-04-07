@@ -63,5 +63,8 @@ void selectionsort()
 
 void display()
 {
-
+	cout << endl;
+	cout << "=================================" << endl;
+	cout << "Element Array yang telah tersusun" << endl;
+	cout << "=================================" << endl;
 }
