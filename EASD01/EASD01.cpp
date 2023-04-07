@@ -29,4 +29,8 @@ void input()
 		cout << "<" << (i + 1) << ">";
 		cin >> shen[i];
 	}
+
+	cout << "==========================" << endl;
+	cout << "Masukkan Elemen Array" << endl;
+	cout << "==========================" << endl;
 }
