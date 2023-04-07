@@ -7,3 +7,6 @@
 
 #include <iostream>
 using namespace std;
+
+int shen[113];
+int s;
