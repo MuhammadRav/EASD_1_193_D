@@ -60,3 +60,8 @@ void selectionsort()
 		swap(mi, mr);
 	}
 }
+
+void display()
+{
+
+}
