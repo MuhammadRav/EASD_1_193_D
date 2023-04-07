@@ -23,4 +23,10 @@ void input()
 		else
 			cout << "Maksimum panjang Array adalah 139" << endl;
 	}
+
+	for (int i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> shen[i];
+	}
 }
