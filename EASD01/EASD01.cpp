@@ -10,3 +10,17 @@ using namespace std;
 
 int shen[113];
 int s;
+
+void input()
+{
+	while (true)
+	{
+		cout << "Masukkan panjang elemen Array : ";
+		cin >> s;
+
+		if (s <= 113)
+			break;
+		else
+			cout << "Maksimum panjang Array adalah 139" << endl;
+	}
+}
