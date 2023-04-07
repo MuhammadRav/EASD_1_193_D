@@ -21,7 +21,7 @@ void input()
 		if (s <= 113)
 			break;
 		else
-			cout << "Maksimum panjang Array adalah 139" << endl;
+			cout << "Maksimum panjang Array adalah 113" << endl;
 	}
 
 	cout << "==========================" << endl;
