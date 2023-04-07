@@ -34,3 +34,11 @@ void input()
 	cout << "Masukkan Elemen Array" << endl;
 	cout << "==========================" << endl;
 }
+
+void swap(int x, int y)
+{
+	int temp;
+	temp = shen[x];
+	shen[x] = shen[y];
+	shen[y] = temp;
+}
