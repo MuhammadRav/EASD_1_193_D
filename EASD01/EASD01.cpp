@@ -47,10 +47,10 @@ void swap(int x, int y)
 
 void selectionsort()
 {
-	for (int mr = 0; mr < n - 1; mr++)
+	for (int mr = 0; mr < s - 1; mr++)
 	{
 		int mi = mr;
-		for (int i = (mr + 1); i < n; i++)
+		for (int i = (mr + 1); i < s; i++)
 		{
 			if (shen[i] < shen[mi])
 			{
