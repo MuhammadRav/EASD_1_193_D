@@ -24,15 +24,17 @@ void input()
 			cout << "Maksimum panjang Array adalah 139" << endl;
 	}
 
+	cout << "==========================" << endl;
+	cout << "Masukkan Elemen Array" << endl;
+	cout << "==========================" << endl;
+
 	for (int i = 0; i < n; i++)
 	{
 		cout << "<" << (i + 1) << ">";
 		cin >> shen[i];
 	}
 
-	cout << "==========================" << endl;
-	cout << "Masukkan Elemen Array" << endl;
-	cout << "==========================" << endl;
+	
 }
 
 void swap(int x, int y)
