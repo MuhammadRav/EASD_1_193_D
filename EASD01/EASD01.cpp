@@ -15,26 +15,24 @@ void input()
 {
 	while (true)
 	{
-		cout << "Masukkan panjang elemen Array : ";
+		cout << "Masukkan panjang elemen Array\t : ";
 		cin >> s;
 
 		if (s <= 113)
 			break;
 		else
-			cout << "Maksimum panjang Array adalah 113" << endl;
+			cout << "\nMaksimum panjang Array adalah 113" << endl;
 	}
 
-	cout << "==========================" << endl;
-	cout << "Masukkan Elemen Array" << endl;
-	cout << "==========================" << endl;
+	cout << "\n==========================" << endl;
+	cout << "\n  Masukkan Elemen Array   " << endl;
+	cout << "\n==========================\n" << endl;
 
 	for (int i = 0; i < s; i++)
 	{
-		cout << "<" << (i + 1) << ">";
+		cout << (i + 1) << ". ";
 		cin >> shen[i];
 	}
-
-	
 }
 
 void swap(int x, int y)
@@ -64,14 +62,16 @@ void selectionsort()
 void display()
 {
 	cout << endl;
-	cout << "=================================" << endl;
-	cout << "Element Array yang telah tersusun" << endl;
-	cout << "=================================" << endl;
+	cout << "\n=================================" << endl;
+	cout << "\nElemen Array yang telah tersusun" << endl;
+	cout << "\n=================================\n" << endl;
 
 	for (int i = 0; i < s; i++)
 	{
 		cout << shen[i] << " ";
 	}
+
+	cout << "\n ";
 }
 
 int main()
