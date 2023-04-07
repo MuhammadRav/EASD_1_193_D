@@ -4,3 +4,6 @@
 // 4. bubble sort dan insertion sort, tapi insertion sort lebih simpel dan lebih cepat dalam mengurutkan data dibanding bubble sort.
 // 5. - Quadratic “Bubble sort, selection sort, insertion sort”
 //    - Loglinear  “merge sort, quick sort”
+
+#include <iostream>
+using namespace std;
