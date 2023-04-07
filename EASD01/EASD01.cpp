@@ -42,3 +42,19 @@ void swap(int x, int y)
 	shen[x] = shen[y];
 	shen[y] = temp;
 }
+
+void selectionsort()
+{
+	for (int mr = 0; mr < n - 1; mr++)
+	{
+		int mi = mr;
+		for (int i = (mr + 1); i < n; i++)
+		{
+			if (shen[i] < shen[mi])
+			{
+				mi = i;
+			}
+		}
+		swap(mi, mr);
+	}
+}
